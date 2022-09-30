@@ -27,11 +27,20 @@ h2 {
   margin-bottom: 5rem;
 }
 
+
+.label {
+  color: purple;
+}
+
+h2:hover {
+  color: brown;
+}
 .twovert {
   height: 50%;
 }
 
 .threevert {
+  height: 33.33%;
 }
 
 .threehoriz {
@@ -76,14 +85,14 @@ h2 {
 }
 
 .lightblue {
-  background-color: lightblue;
+  background-color: rgb(0, 146, 221);
 }
 
 .purple {
   background-color: purple;
 }
 
-.white {
+#white {
   background-color: #fff;
 }
 
@@ -91,18 +100,22 @@ h2 {
   background-color: #000;
 }
 
+.red {
+  background-color: #e10017;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  width: 500px; height: 50px; background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  width: 500px; height: 50px; background-color: #fff;
 }
 
 .thailand-blue {
-  /* TODO */
+  width: 500px; height: 100px; background-color: #2E2E4C;
 }
 
 /* END QUESTION 2 */
@@ -110,30 +123,31 @@ h2 {
 /* BEGIN QUESTION 3 */
 
 .romania-blue {
-  background-color: #002c84;
+  width: 33.33%; height: 300px; background-color: #002c84;
 }
 
 .romania-yellow {
-  background-color: #ffcf00;
+  width: 33.33%; height: 300px; background-color: #ffcf00;
 }
 
 .romania-red {
-  background-color: #e10017;
+  width: 33.33%; height: 300px; background-color: #e10017;
 }
 
 /* END QUESTION 3 */
 
 /* QUESTION 4 */
 .mexico-green {
-  background-color: #006341;
+  width: 33.33%; height: 300px; background-color: #006341;
 }
 
 .mexico-img {
+  max-width: 30%; max-height: 33.33%; align-self: center;
   /* TODO */
 }
 
 .mexico-red {
-  background-color: #ce1126;
+  width: 33.33%; height: 300px; background-color: #ce1126;
 }
 
 /* QUESTION 6 */
@@ -148,12 +162,12 @@ h2 {
 
 /* For margin practice */
 .flag1 {
-  background-color: red;
+  background-color: red; margin-right: 5px;
   /* TODO */
 }
 
 .flag2 {
-  background-color: blue;
+  background-color: blue; margin-left: 5px;
   /* TODO */
 }
 /* For padding practice */
@@ -161,5 +175,5 @@ h2 {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
